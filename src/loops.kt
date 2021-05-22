@@ -27,6 +27,24 @@ fun main(){
 	
 	// while loop
 	var x = 1
+	while(x<5){
+		println("the current value of x is $x")
+		x++;
+	}
+	
+	
+	// do while loop
+	// this loop is used when we want the first iteration to happen what ever the condition is found
+	
+	x = 1
+	do{
+		x++;
+		println("The curreent value of x is $x")
+
+	}while(x<1)
+	
+	// from this we can see that in do while loop condition failed but still it will print value of x as 2 because we intcrement it .
+	
 	
 }
 
